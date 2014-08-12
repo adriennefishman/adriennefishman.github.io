@@ -3,8 +3,20 @@
   
   
   <url>
+    <loc>http://adriennefishman.github.io/blog/2014/08/11/node-dot-js/</loc>
+    <lastmod>2014-08-11T21:49:31-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
     <loc>http://adriennefishman.github.io/blog/2014/08/11/javascript-and-jquery/</loc>
-    <lastmod>2014-08-11T21:29:09-04:00</lastmod>
+    <lastmod>2014-08-11T21:48:40-04:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://adriennefishman.github.io/blog/2014/08/11/mvc/</loc>
+    <lastmod>2014-08-11T21:31:55-04:00</lastmod>
     <priority>0.8</priority>
   </url>
   
@@ -17,14 +29,14 @@
   
   <url>
     <loc>http://adriennefishman.github.io/blog/archives/</loc>
-    <lastmod>2014-08-11T21:30:26-04:00</lastmod>
+    <lastmod>2014-08-11T21:50:33-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
     <loc>http://adriennefishman.github.io/</loc>
-    <lastmod>2014-08-11T21:30:26-04:00</lastmod>
+    <lastmod>2014-08-11T21:50:33-04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

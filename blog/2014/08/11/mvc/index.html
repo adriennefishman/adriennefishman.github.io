@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Adrienne's Blog</title>
+  <title>MVC - Adrienne's Blog</title>
   <meta name="author" content="Adrienne Fishman">
 
   
-  <meta name="description" content="Yesterday at The Flatiron School, my group came up with an idea for an app for project mode. We wanted to show a world map and display live streaming &hellip;">
+  <meta name="description" content="Model View Controller (MVC) Before attending The Flatiron School, I had heard the terms model, view and controller, but did not have a clear &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://adriennefishman.github.io">
+  <link rel="canonical" href="http://adriennefishman.github.io/blog/2014/08/11/mvc">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Adrienne's Blog" type="application/atom+xml">
@@ -63,134 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/08/11/node-dot-js/">Node.js</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-11T21:49:31-04:00" pubdate data-updated="true">Aug 11<sup>th</sup>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yesterday at The Flatiron School, my group came up with an idea for an app for project mode. We wanted to show a world map and display live streaming, trending tweets over each country in order to help people visualize what is going on all over the world. In order to do this, however, we wanted the tweets to be streamed continuously. Therefore, for the project, my group decided to learn Node.js.</p>
-
-<p>What is Node?</p>
-
-<p>Node is not a replacement for a web framework such as Rails. Rather, it is a platform that allows you to build scalable network applications using JavaScript on the server-side.</p>
-
-<p>What is special about Node?</p>
-
-<p>Node uses non-blocking code. This is unique because let&rsquo;s say you had two files. With blocking code, it would read one file and then the next file. With non-blocking code, on the other hand, we can read two files at the same time, in parallel. Thus, Node is perfect for our project, as it allows us to read a large number of tweets simultaneously.</p>
-
-<p>Events</p>
-
-<p>Node uses an event-driven model. To understand the positive implications of an event-driven model, as opposed to a thread-based system, Dan York uses the analogy of standing in line at a doctor&rsquo;s office to see the receptionist. In a threat-based system, when you get to the receptionist, you stand at the counter for as long as it takes you to complete your transaction. If you have to fill out multiple forms, you do so while the receptionist sits there waiting for you. &ldquo;You are blocking him or her from servicing any other customers.&rdquo; In an event-driven model, like Node, you are given the forms, and you fill them out elsewhere while the receptionist helps the next person in line. In Node, the web server accepts a request, hands it off to be handled, and goes on to deal with the next web request. Examples of events include request, connection and close. Thus, in Node, two requests can occur simultaneously and no code will be blocked.</p>
-
-<p>Node Package Manager (NPM)
-NMP is a central repository where people can publish their modules and you can install them. It is similar to Ruby Gems.</p>
-
-<p>Express</p>
-
-<p>Express is a Sinatra inspired web development framework for Node.js.</p>
-
-<p>Sources:
-<a href="http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/">http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/</a>
-<a href="https://www.codeschool.com/courses/real-time-web-with-node-js">https://www.codeschool.com/courses/real-time-web-with-node-js</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/11/javascript-and-jquery/">JavaScript and jQuery</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-08-11T21:48:40-04:00" pubdate data-updated="true">Aug 11<sup>th</sup>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This week at The Flatiron School, we began to learn about JavaScript and jQuery. Since JavaScript and jQuery are completely new to me, I thought it would be a good idea to research and discuss these topics.</p>
-
-<p>JavaScript</p>
-
-<p>Javascript is a scripting language. It does not stand by itself, but rather scripts another application, in this case, the browser. It is interpreted when it is run; it is not compiled.
-JavaScript is platform-independent, meaning that it does not require any specific operating system or browser to work.
-JavaScript was designed for use within a web browser. It is used for forms, slideshows and other interactive components.</p>
-
-<p>jQuery</p>
-
-<p>jQuery is a specific library of JavaScript code.
-jQuery has been optimized to perform many common scripting functions and it does so using fewer lines of code.
-jQuery has been optimized to work with a variety of browsers automatically, whereas JavaScript still has some issues with cross-browser compatibility.</p>
-
-<p>$</p>
-
-<p>The $ represents jQuery and it is how you access all of the functionality of the jQuery library.</p>
-
-<p><a href="http://youmightnotneedjquery.com">http://youmightnotneedjquery.com</a>
-This is a link to &ldquo;You Might Not Need jQuery.&rdquo; It is a useful resource that shows side-by-side examples of jQuery code and their &ldquo;vanilla Javascript counterparts.&rdquo; Even if you choose to use jQuery when you do not actually need it, the site urges you to &ldquo;at the very least, make sure you know what jQuery is doing for you, and what it&rsquo;s not.&rdquo; I found this to be very instructive as it gave me a deeper understanding of the syntax we have been using in our labs. The site shows jQuery and JavaScript code side-by-side for methods such as hide, show, append and before, which we have used this week.</p>
-
-<p>Sources:
-<a href="http://www.udemy.com/blog/jquery-vs-javascript/">http://www.udemy.com/blog/jquery-vs-javascript/</a>
-<a href="http://stackoverflow.com/questions/968461/why-javascript-is-called-as-scripting-language">http://stackoverflow.com/questions/968461/why-javascript-is-called-as-scripting-language</a>
-<a href="http://youmightnotneedjquery.com">http://youmightnotneedjquery.com</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/11/mvc/">MVC</a></h1>
+      <h1 class="entry-title">MVC</h1>
     
     
       <p class="meta">
@@ -213,7 +91,7 @@ This is a link to &ldquo;You Might Not Need jQuery.&rdquo; It is a useful resour
   </header>
 
 
-  <div class="entry-content"><p>Model View Controller (MVC)</p>
+<div class="entry-content"><p>Model View Controller (MVC)</p>
 
 <p>Before attending The Flatiron School, I had heard the terms model, view and controller, but did not have a clear understanding of what they meant. This past week helped to inspire my interest in MVC and to recognize why code is broken up in this way.</p>
 
@@ -267,22 +145,16 @@ This is a link to &ldquo;You Might Not Need jQuery.&rdquo; It is a useful resour
 
 <p>I am excited to add to this blog post as I learn more about MVC!</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/08/09/my-first-post-on-octopress/">My First Post on Octopress</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Adrienne Fishman</span></span>
+
+      
 
 
 
@@ -294,27 +166,40 @@ This is a link to &ldquo;You Might Not Need jQuery.&rdquo; It is a useful resour
   
 
 
-<time datetime="2014-08-09T11:05:26-04:00" pubdate data-updated="true">Aug 9<sup>th</sup>, 2014</time>
-        
-      </p>
+<time datetime="2014-08-11T21:31:55-04:00" pubdate data-updated="true">Aug 11<sup>th</sup>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/flatiron/'>flatiron</a>, <a class='category' href='/blog/categories/school/'>school</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>&ldquo;Hello World&rdquo;</p>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://adriennefishman.github.io/blog/2014/08/11/mvc/" data-via="" data-counturl="http://adriennefishman.github.io/blog/2014/08/11/mvc/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/08/09/my-first-post-on-octopress/" title="Previous Post: My First Post On Octopress">&laquo; My First Post On Octopress</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2014/08/11/javascript-and-jquery/" title="Next Post: JavaScript and jQuery">JavaScript and jQuery &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -346,6 +231,7 @@ This is a link to &ldquo;You Might Not Need jQuery.&rdquo; It is a useful resour
 
   
 </aside>
+
 
     </div>
   </div>

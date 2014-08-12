@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>My First Post on Octopress - Adrienne's Blog</title>
+  <title>Node.js - Adrienne's Blog</title>
   <meta name="author" content="Adrienne Fishman">
 
   
-  <meta name="description" content="&ldquo;Hello World&rdquo;
-">
+  <meta name="description" content="Yesterday at The Flatiron School, my group came up with an idea for an app for project mode. We wanted to show a world map and display live streaming &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://adriennefishman.github.io/blog/2014/08/09/my-first-post-on-octopress">
+  <link rel="canonical" href="http://adriennefishman.github.io/blog/2014/08/11/node-dot-js">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Adrienne's Blog" type="application/atom+xml">
@@ -69,7 +68,7 @@
   
   <header>
     
-      <h1 class="entry-title">My First Post on Octopress</h1>
+      <h1 class="entry-title">Node.js</h1>
     
     
       <p class="meta">
@@ -85,14 +84,37 @@
   
 
 
-<time datetime="2014-08-09T11:05:26-04:00" pubdate data-updated="true">Aug 9<sup>th</sup>, 2014</time>
+<time datetime="2014-08-11T21:49:31-04:00" pubdate data-updated="true">Aug 11<sup>th</sup>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>&ldquo;Hello World&rdquo;</p>
+<div class="entry-content"><p>Yesterday at The Flatiron School, my group came up with an idea for an app for project mode. We wanted to show a world map and display live streaming, trending tweets over each country in order to help people visualize what is going on all over the world. In order to do this, however, we wanted the tweets to be streamed continuously. Therefore, for the project, my group decided to learn Node.js.</p>
+
+<p>What is Node?</p>
+
+<p>Node is not a replacement for a web framework such as Rails. Rather, it is a platform that allows you to build scalable network applications using JavaScript on the server-side.</p>
+
+<p>What is special about Node?</p>
+
+<p>Node uses non-blocking code. This is unique because let&rsquo;s say you had two files. With blocking code, it would read one file and then the next file. With non-blocking code, on the other hand, we can read two files at the same time, in parallel. Thus, Node is perfect for our project, as it allows us to read a large number of tweets simultaneously.</p>
+
+<p>Events</p>
+
+<p>Node uses an event-driven model. To understand the positive implications of an event-driven model, as opposed to a thread-based system, Dan York uses the analogy of standing in line at a doctor&rsquo;s office to see the receptionist. In a threat-based system, when you get to the receptionist, you stand at the counter for as long as it takes you to complete your transaction. If you have to fill out multiple forms, you do so while the receptionist sits there waiting for you. &ldquo;You are blocking him or her from servicing any other customers.&rdquo; In an event-driven model, like Node, you are given the forms, and you fill them out elsewhere while the receptionist helps the next person in line. In Node, the web server accepts a request, hands it off to be handled, and goes on to deal with the next web request. Examples of events include request, connection and close. Thus, in Node, two requests can occur simultaneously and no code will be blocked.</p>
+
+<p>Node Package Manager (NPM)
+NMP is a central repository where people can publish their modules and you can install them. It is similar to Ruby Gems.</p>
+
+<p>Express</p>
+
+<p>Express is a Sinatra inspired web development framework for Node.js.</p>
+
+<p>Sources:
+<a href="http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/">http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/</a>
+<a href="https://www.codeschool.com/courses/real-time-web-with-node-js">https://www.codeschool.com/courses/real-time-web-with-node-js</a></p>
 </div>
 
 
@@ -115,7 +137,7 @@
   
 
 
-<time datetime="2014-08-09T11:05:26-04:00" pubdate data-updated="true">Aug 9<sup>th</sup>, 2014</time>
+<time datetime="2014-08-11T21:49:31-04:00" pubdate data-updated="true">Aug 11<sup>th</sup>, 2014</time>
       
 
 <span class="categories">
@@ -129,7 +151,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://adriennefishman.github.io/blog/2014/08/09/my-first-post-on-octopress/" data-via="" data-counturl="http://adriennefishman.github.io/blog/2014/08/09/my-first-post-on-octopress/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://adriennefishman.github.io/blog/2014/08/11/node-dot-js/" data-via="" data-counturl="http://adriennefishman.github.io/blog/2014/08/11/node-dot-js/" >Tweet</a>
   
   
   
@@ -138,8 +160,8 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/08/11/javascript-and-jquery/" title="Previous Post: JavaScript and jQuery">&laquo; JavaScript and jQuery</a>
       
-        <a class="basic-alignment right" href="/blog/2014/08/11/mvc/" title="Next Post: MVC">MVC &raquo;</a>
       
     </p>
   </footer>

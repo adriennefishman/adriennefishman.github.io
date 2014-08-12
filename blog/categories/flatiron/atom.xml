@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron | Adrienne's Blog]]></title>
   <link href="http://adriennefishman.github.io/blog/categories/flatiron/atom.xml" rel="self"/>
   <link href="http://adriennefishman.github.io/"/>
-  <updated>2014-08-11T21:30:26-04:00</updated>
+  <updated>2014-08-11T21:50:33-04:00</updated>
   <id>http://adriennefishman.github.io/</id>
   <author>
     <name><![CDATA[Adrienne Fishman]]></name>
@@ -14,9 +14,41 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Node.js]]></title>
+    <link href="http://adriennefishman.github.io/blog/2014/08/11/node-dot-js/"/>
+    <updated>2014-08-11T21:49:31-04:00</updated>
+    <id>http://adriennefishman.github.io/blog/2014/08/11/node-dot-js</id>
+    <content type="html"><![CDATA[<p>Yesterday at The Flatiron School, my group came up with an idea for an app for project mode. We wanted to show a world map and display live streaming, trending tweets over each country in order to help people visualize what is going on all over the world. In order to do this, however, we wanted the tweets to be streamed continuously. Therefore, for the project, my group decided to learn Node.js.</p>
+
+<p>What is Node?</p>
+
+<p>Node is not a replacement for a web framework such as Rails. Rather, it is a platform that allows you to build scalable network applications using JavaScript on the server-side.</p>
+
+<p>What is special about Node?</p>
+
+<p>Node uses non-blocking code. This is unique because let&rsquo;s say you had two files. With blocking code, it would read one file and then the next file. With non-blocking code, on the other hand, we can read two files at the same time, in parallel. Thus, Node is perfect for our project, as it allows us to read a large number of tweets simultaneously.</p>
+
+<p>Events</p>
+
+<p>Node uses an event-driven model. To understand the positive implications of an event-driven model, as opposed to a thread-based system, Dan York uses the analogy of standing in line at a doctor&rsquo;s office to see the receptionist. In a threat-based system, when you get to the receptionist, you stand at the counter for as long as it takes you to complete your transaction. If you have to fill out multiple forms, you do so while the receptionist sits there waiting for you. &ldquo;You are blocking him or her from servicing any other customers.&rdquo; In an event-driven model, like Node, you are given the forms, and you fill them out elsewhere while the receptionist helps the next person in line. In Node, the web server accepts a request, hands it off to be handled, and goes on to deal with the next web request. Examples of events include request, connection and close. Thus, in Node, two requests can occur simultaneously and no code will be blocked.</p>
+
+<p>Node Package Manager (NPM)
+NMP is a central repository where people can publish their modules and you can install them. It is similar to Ruby Gems.</p>
+
+<p>Express</p>
+
+<p>Express is a Sinatra inspired web development framework for Node.js.</p>
+
+<p>Sources:
+<a href="http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/">http://code.danyork.com/2011/01/25/node-js-doctors-offices-and-fast-food-restaurants-understanding-event-driven-programming/</a>
+<a href="https://www.codeschool.com/courses/real-time-web-with-node-js">https://www.codeschool.com/courses/real-time-web-with-node-js</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[JavaScript and jQuery]]></title>
     <link href="http://adriennefishman.github.io/blog/2014/08/11/javascript-and-jquery/"/>
-    <updated>2014-08-11T21:29:09-04:00</updated>
+    <updated>2014-08-11T21:48:40-04:00</updated>
     <id>http://adriennefishman.github.io/blog/2014/08/11/javascript-and-jquery</id>
     <content type="html"><![CDATA[<p>This week at The Flatiron School, we began to learn about JavaScript and jQuery. Since JavaScript and jQuery are completely new to me, I thought it would be a good idea to research and discuss these topics.</p>
 
@@ -43,6 +75,67 @@ This is a link to &ldquo;You Might Not Need jQuery.&rdquo; It is a useful resour
 <a href="http://www.udemy.com/blog/jquery-vs-javascript/">http://www.udemy.com/blog/jquery-vs-javascript/</a>
 <a href="http://stackoverflow.com/questions/968461/why-javascript-is-called-as-scripting-language">http://stackoverflow.com/questions/968461/why-javascript-is-called-as-scripting-language</a>
 <a href="http://youmightnotneedjquery.com">http://youmightnotneedjquery.com</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[MVC]]></title>
+    <link href="http://adriennefishman.github.io/blog/2014/08/11/mvc/"/>
+    <updated>2014-08-11T21:31:55-04:00</updated>
+    <id>http://adriennefishman.github.io/blog/2014/08/11/mvc</id>
+    <content type="html"><![CDATA[<p>Model View Controller (MVC)</p>
+
+<p>Before attending The Flatiron School, I had heard the terms model, view and controller, but did not have a clear understanding of what they meant. This past week helped to inspire my interest in MVC and to recognize why code is broken up in this way.</p>
+
+<p>Before jumping right in and using MVC, it is important that we discuss its history. The MVC framework was introduced by Trygve Reenskaug in the late 1970s. “MVC was conceived as a general solution to the problem of users controlling a large and complex data set.” Reenskaug writes that his most difficult challenge was to come up with names for the components. Originally, the framework was entitled Model View Editor, but it was changed to Model View Controller. MVC has been introduced in almost every programming language in use today. As Reenskaug writes, “The essential purpose of MVC is to bridge the gap between the human user’s mental model and the digital model that exists in the computer.”</p>
+
+<p>“An easy way to understand MVC: the model is the data, the view is the window on the screen, and the controller is the glue between the two.” -Connelly Barnes</p>
+
+<p>Model</p>
+
+<p>The model represents the database.</p>
+
+<p>View</p>
+
+<p>The view is the presentation.</p>
+
+<p>Controller</p>
+
+<p>The controller connects the model with the view.</p>
+
+<p>In other words, the model handles data, the view handles presentation and the controller handles decisions.</p>
+
+<p>Rails</p>
+
+<p>In Rails, MVC is referred to as:</p>
+
+<p>Model: ActiveRecord</p>
+
+<p>View: ActionView</p>
+
+<p>Controller: ActionController</p>
+
+<p>Rails also packages ActionController and ActionView together and refers to this combination as ActionPack.</p>
+
+<p>Code</p>
+
+<p>While these definitions may make sense in theory, it is most helpful to see MVC in practice. Here are examples that show the roles of Model View and Controller.</p>
+
+<p>An example of what our directories look like when divided into Model View and Controller: <img src= "../images/MVC.png"></p>
+
+<p>As you can see, our model shows the associations between different tables in our database. In this particular database, we created Halloween-themed tables including kid, house, candy and bucket. Our models for kid, house and candy and bucket will show the different associations between the tables. There are different terms you can use to describe the associations, such as has_many, belongs_to, has_one and has_many through. Here, a bucket belongs to a kid and it has many candies. This is just one example of a model but all of our models will include their associations to the other tables.</p>
+
+<p><img src= "../images/model.png"></p>
+
+<p>Our view is the presentation. The files in the view directory determine what our users will actually see. In this example, the “new” file in the “kids” folder inside of the view directory will display a form for the users so that they can sign up a kid for trick-or-treating. This file is in views because it is the code for the exact form that will show up on the user’s screen when they are on this page.</p>
+
+<p><img src= "../images/views.png"></p>
+
+<p>Our controller allows us to choose our routes. It connects the model and the view.When the users are at a particular URL, which of our files does that URL send them to? This is where the controller comes in. Here, for example, when our users are at the url “/kids/new”, we want them to see our “new” file that we created in our kids folder so that they can see the sign up form. However, this does not just happen automatically. In our controller, we write the specific URL and then we assign that URL to our file so that they are connected. Now, when the users are at the URL “/kids/new”, they will be sent to our “new” file in “kids”.</p>
+
+<p><img src= "../images/controller.png"></p>
+
+<p>I am excited to add to this blog post as I learn more about MVC!</p>
 ]]></content>
   </entry>
   
