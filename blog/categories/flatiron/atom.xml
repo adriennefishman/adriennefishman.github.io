@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flatiron | Adrienne's Blog]]></title>
   <link href="http://adriennefishman.github.io/blog/categories/flatiron/atom.xml" rel="self"/>
   <link href="http://adriennefishman.github.io/"/>
-  <updated>2014-08-09T11:06:13-04:00</updated>
+  <updated>2014-08-11T21:30:26-04:00</updated>
   <id>http://adriennefishman.github.io/</id>
   <author>
     <name><![CDATA[Adrienne Fishman]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[JavaScript and jQuery]]></title>
+    <link href="http://adriennefishman.github.io/blog/2014/08/11/javascript-and-jquery/"/>
+    <updated>2014-08-11T21:29:09-04:00</updated>
+    <id>http://adriennefishman.github.io/blog/2014/08/11/javascript-and-jquery</id>
+    <content type="html"><![CDATA[<p>This week at The Flatiron School, we began to learn about JavaScript and jQuery. Since JavaScript and jQuery are completely new to me, I thought it would be a good idea to research and discuss these topics.</p>
+
+<p>JavaScript</p>
+
+<p>Javascript is a scripting language. It does not stand by itself, but rather scripts another application, in this case, the browser. It is interpreted when it is run; it is not compiled.
+JavaScript is platform-independent, meaning that it does not require any specific operating system or browser to work.
+JavaScript was designed for use within a web browser. It is used for forms, slideshows and other interactive components.</p>
+
+<p>jQuery</p>
+
+<p>jQuery is a specific library of JavaScript code.
+jQuery has been optimized to perform many common scripting functions and it does so using fewer lines of code.
+jQuery has been optimized to work with a variety of browsers automatically, whereas JavaScript still has some issues with cross-browser compatibility.</p>
+
+<p>$</p>
+
+<p>The $ represents jQuery and it is how you access all of the functionality of the jQuery library.</p>
+
+<p><a href="http://youmightnotneedjquery.com">http://youmightnotneedjquery.com</a>
+This is a link to &ldquo;You Might Not Need jQuery.&rdquo; It is a useful resource that shows side-by-side examples of jQuery code and their &ldquo;vanilla Javascript counterparts.&rdquo; Even if you choose to use jQuery when you do not actually need it, the site urges you to &ldquo;at the very least, make sure you know what jQuery is doing for you, and what it&rsquo;s not.&rdquo; I found this to be very instructive as it gave me a deeper understanding of the syntax we have been using in our labs. The site shows jQuery and JavaScript code side-by-side for methods such as hide, show, append and before, which we have used this week.</p>
+
+<p>Sources:
+<a href="http://www.udemy.com/blog/jquery-vs-javascript/">http://www.udemy.com/blog/jquery-vs-javascript/</a>
+<a href="http://stackoverflow.com/questions/968461/why-javascript-is-called-as-scripting-language">http://stackoverflow.com/questions/968461/why-javascript-is-called-as-scripting-language</a>
+<a href="http://youmightnotneedjquery.com">http://youmightnotneedjquery.com</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My First Post on Octopress]]></title>
