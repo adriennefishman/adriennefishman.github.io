@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "JavaScript and jQuery"
-date: 2014-08-11 21:29:09 -0400
+date: 2014-08-11 21:48:40 -0400
 comments: true
 categories: Flatiron School
 ---
-
 This week at The Flatiron School, we began to learn about JavaScript and jQuery. Since JavaScript and jQuery are completely new to me, I thought it would be a good idea to research and discuss these topics.
 
 

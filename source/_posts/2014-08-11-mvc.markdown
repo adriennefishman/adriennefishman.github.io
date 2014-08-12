@@ -1,0 +1,60 @@
+---
+layout: post
+title: "MVC"
+date: 2014-08-11 21:31:55 -0400
+comments: true
+categories: Flatiron School
+---
+Model View Controller (MVC)
+
+Before attending The Flatiron School, I had heard the terms model, view and controller, but did not have a clear understanding of what they meant. This past week helped to inspire my interest in MVC and to recognize why code is broken up in this way.
+
+Before jumping right in and using MVC, it is important that we discuss its history. The MVC framework was introduced by Trygve Reenskaug in the late 1970s. “MVC was conceived as a general solution to the problem of users controlling a large and complex data set.” Reenskaug writes that his most difficult challenge was to come up with names for the components. Originally, the framework was entitled Model View Editor, but it was changed to Model View Controller. MVC has been introduced in almost every programming language in use today. As Reenskaug writes, “The essential purpose of MVC is to bridge the gap between the human user’s mental model and the digital model that exists in the computer.”
+
+“An easy way to understand MVC: the model is the data, the view is the window on the screen, and the controller is the glue between the two.” -Connelly Barnes
+
+Model
+
+The model represents the database.
+
+View
+
+The view is the presentation.
+
+Controller
+
+The controller connects the model with the view.
+
+In other words, the model handles data, the view handles presentation and the controller handles decisions.
+
+Rails
+
+In Rails, MVC is referred to as:
+
+Model: ActiveRecord
+
+View: ActionView
+
+Controller: ActionController
+
+Rails also packages ActionController and ActionView together and refers to this combination as ActionPack.
+
+Code
+
+While these definitions may make sense in theory, it is most helpful to see MVC in practice. Here are examples that show the roles of Model View and Controller.
+
+An example of what our directories look like when divided into Model View and Controller: <img src= "../images/MVC.png">
+
+As you can see, our model shows the associations between different tables in our database. In this particular database, we created Halloween-themed tables including kid, house, candy and bucket. Our models for kid, house and candy and bucket will show the different associations between the tables. There are different terms you can use to describe the associations, such as has_many, belongs_to, has_one and has_many through. Here, a bucket belongs to a kid and it has many candies. This is just one example of a model but all of our models will include their associations to the other tables.
+
+<img src= "../images/model.png">
+
+Our view is the presentation. The files in the view directory determine what our users will actually see. In this example, the “new” file in the “kids” folder inside of the view directory will display a form for the users so that they can sign up a kid for trick-or-treating. This file is in views because it is the code for the exact form that will show up on the user’s screen when they are on this page. 
+
+<img src= "../images/views.png">
+
+Our controller allows us to choose our routes. It connects the model and the view.When the users are at a particular URL, which of our files does that URL send them to? This is where the controller comes in. Here, for example, when our users are at the url “/kids/new”, we want them to see our “new” file that we created in our kids folder so that they can see the sign up form. However, this does not just happen automatically. In our controller, we write the specific URL and then we assign that URL to our file so that they are connected. Now, when the users are at the URL “/kids/new”, they will be sent to our “new” file in “kids”. 
+
+<img src= "../images/controller.png">
+
+I am excited to add to this blog post as I learn more about MVC!
